@@ -5,3 +5,5 @@ In the repository I found
 - A readme.md file includes a practitioner's guide
 - Files used to create it
 - 2 contributors
+
+Link to the tool: https://github.com/dipanjanS/text-analytics-with-python
