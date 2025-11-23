@@ -1,0 +1,28 @@
+European studies
+Introduction
+Political, cultural and historical issues in Europe
+The Master’s degree programme in European studies at Aarhus University centres on European politics, culture and history. Students will work with the theme of European diversity and its common grounds and shared identities that ties Europeans together. They will learn how to analyse multiple issues and opportunities involved in the European cooperation and integration. Students will concentrate on EU institutions, its hybridity and critical analysis of cultural, social and political dynamism in Europe and define what Europe actually is. This is an international Master’s degree programme, so fellow students come from all over the world and hold diverse backgrounds. This also means that the teaching and discussion are in English.
+
+Career opportunities
+Master’s graduates in European studies are qualified to teach European issues as well as presenting them in a variety of media. Graduates can work in international organisations, in political institutions, or with European issues in business life. They can also support project coordination and intercultural communication – for instance at embassies, in export companies or in Danish or EU-related organisations. For those who are interested in further research, they can continue their academic path by applying for a PhD degree.
+
+Current digital technologies 
+Text mining and computational textual analysis are used to ease large collections of EU-themed texts (newspapers, parliamentary debates, literature, political discourses) into data for trends and topic modelling. Qualitative Research Method course in the first semester will equip students with such corpus management skills as well as semi-structured interviews.
+Machine learning and AI methods are applied for recognition, classification, and exploratory modelling in humanities projects and courses teaching digital technologies in the humanities. However, it is mandatory to cite the aid of AI, if any, in students' assignments, which ensures the transparancy and honesty in the academic environment.
+Besides, an API (Application Programming Interface) lets European studies learners connect to external reliable data and services. Typical uses in the field include retrieving Eurostat statistics, querying legislative databases, fetching multilingual corpora, or accessing APIs from cultural heritage institutions. APIs let you automate data gathering, update dashboards with live indicators (migration, trade, public opinion), and embed validated external sources into analyses and teaching materials.
+
+The issue of digital technology
+I personally find Orange Data Mining troublesome after being introduced in the first semester, as part of the Qualitative Research Method course. While it is low‑code, visual approach makes it appeal to teaching and quick exploration, it has important limitations: it assumes datasets fit in memory and is optimized for single‑machine use, so it struggles with very large or high‑velocity data and can crash or become unresponsive on laptops; its diversity and multiplicity of widgets complicate the work flow when users are unable to comprehend and make use of all widgets. Finally, while extensible, its ecosystem and integrations are smaller than major data‑science stacks, which can make advanced or production deployments more cumbersome.
+
+Vital technologies
+I think QualCoder and transcription tools play complementary, transformative roles in interview-based research: automated or semi‑automated transcription converts audio into densed text quickly and consistently, saving hours and making it possible to mark timestamps, check quotes, and preserve conversational flow, while QualCoder provides an open, structured environment for importing those transcripts, organising documents, applying systematic codes, and retrieving coded segments for thematic analysis; together they speed up the workflow, improve transparency and reproducibility (by keeping audio–text–code linkages), lower technical barriers for students and interdisciplinary teams, and enable iterative, mixed‑methods analysis—while researchers should remain cautious about transcription accuracy (especially with accented speech or domain terms), maintain careful quality checks, and document coding decisions to protect analytic validity.
+
+APIs and Github
+One of the most relevant API for European studies-majored students is the EU Open Data Portal API (data.europa.eu)
+It contains and allows public access to thousands of datasets from EU institutions.
+Conclusion
+The European Studies Master’s programme holds wide potential to train versatile researchers and policy professionals who can navigate complex issues by combining disciplinary knowledge with practical skills; integrating digital humanities methods—text mining, GIS, APIs, reproducible notebooks—amplifies that potential by opening new sources, scaling comparative work, and making analysis more transparent and doable. Meanwhile, success hinges on the prudent selection of tools for your research: choose platforms that match project scale (lightweight editors and coder for prototyping; more robust stacks or cloud services for big data), respect reproducibility and ethical constraints (version control, documented preprocessing, secure storage), and fit your technical readiness so methods empower rather than complicating the work. By pairing strong substantive expertise with targeted, well‑documented digital practices, graduates can produce rigorous, innovative research that illustrates to contemporary European challenges.
+
+References
+https://masters.au.dk/europeanstudies
+https://guides.nyu.edu/digital-humanities/tools-and-software
