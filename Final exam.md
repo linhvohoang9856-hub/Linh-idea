@@ -49,6 +49,7 @@ Digital humanities provide powerful tools and understanding that can significant
 
 
 References
+
 Alpin, A. M. n.d. ‘Research Guides: Digital Humanities: Tools & Software’. Accessed 23 November 2025. https://guides.nyu.edu/digital-humanities/tools-and-software.
 
 Aarhus University. n.d. ‘Master’s Degree Programme in European Studies’. Accessed 23 November 2025. https://masters.au.dk/europeanstudies.
