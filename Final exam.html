@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Digital humanities - Final exam</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <header>
         <h1>European studies and digital humanities</h1>
         <p1>By Linh Hoang Vo</p1>        
     </header>
+    <button onclick="loadMarkdown('Final exam.md', 'content')">Section 1</button>
+    <button onclick="loadMarkdown('Final exam.md', 'content')">Section 2</button>
 </body>
 
 <main>
+    <div id="content"></div>
     <section>
         <h2>Introduction of European studies</h2>
         <img id="image" src="european studies.jpg" alt="European studies">
@@ -43,6 +47,7 @@
         <p>One of the most relevant API for European studies-majored students is the EU Open Data Portal API (data.europa.eu). It contains and allows public access to thousands of datasets from EU institutions. It enables users to fetch structured data on EU legislation, governance and socio-economic indicators, thereby facilitating policy analysis and comparative research. Through endpoints such as the Search API (https://data.europa.eu/api/hub/search/), the SPARQL API (https://data.europa.eu/sparql), and metadata quality assurance tools, users can access structured information on topics ranging from legislation, governance, and socio-economic indicators to environmental and digital transformation policies. For academic work, this API allows you to integrate EU datasets directly into research projects, for example, examining healthcare access for migrants across member states or comparing climate governance initiatives. In brief, the EU Open Data Portal API is a powerful tool for bridging scholarly queries with resources, ensuring that arguments and analysis are grounded in authoritative European data. (Postman. n.d.)</p>
         <p>GitHub drives academic collaboration by providing a robust platform for version control, transparency, and shared authorship, allowing researchers to track changes, manage contributions, and ensure accountability in common projects. By hosting code, datasets, and documentation in open repositories, GitHub enables scholars to share work, reducing duplication and accelerating analysis writing. Its emphasis on open-source practices supports reproducibility, as research outputs can be independently verified, adapted, and extended by collaborators. Such openness transforms academic work into a dynamic, constructive dialogue where knowledge creation is not limited to individual institutions but shared efforts. In practice, GitHub empowers interdisciplinary teams to collaborate seamlessly, democratises access to research tools, and strengthens the credibility of findings by embedding transparency into the very step of research.</p>
     </section>
+
     <section>
         <h2>Artificial Intelligence, Safety and Security Online, and Cross-Disciplinary Communication</h2>
         <h3>Artificial Intelligence (AI)</h3>
@@ -75,7 +80,46 @@
             Aarhus University. n.d. ‘Master’s Degree Programme in European Studies’. Accessed 23 November 2025. https://masters.au.dk/europeanstudies.<br>
             National Cyber Security Centre. n.d. ‘Top Tips for Staying Secure Online’. Accessed 11 December 2025. https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online.<br>
             Postman. n.d. ‘What Is an API? A Beginner’s Guide to APIs | Postman’. Accessed 23 November 2025. https://www.postman.com/what-is-an-api/.
-            
+         
         </p>
     </section>
+    <section>
+        <h2>Declaration
+            <p>I have used GAI (Copilot) to get improvements of texts.</p>
+        </h2>
+    </section>
 </main>
+
+<script>
+  async function getAdvice(){
+    const response = await fetch('https://api.adviceslip.com/advice');
+    const data = await response.json();
+    document.getElementById("daily-quote").innerHTML = data.slip.advice;
+  }
+  getAdvice();
+  async function getJoke(){
+    const response = await fetch('https://v2.jokeapi.dev/joke/Any');
+    const data = await response.json();
+    document.getElementById("joke").innerHTML = data.joke;
+  }
+  getJoke();
+    async function displayImage(){
+    const response = await fetch('https://randomfox.ca/floof/');
+    const data = await response.json();
+    document.getElementById("fox-image").src = data.image;
+  }
+  displayImage();
+  async function loadMarkdown(filename, componentId) {
+    const response = await fetch(filename);
+    const text = await response.text();
+    document.getElementById(componentId).innerHTML = marked.parse(text);
+  }
+  function makeBackgroundPink(){
+    document.getElementById("content").style.background = "pink";
+  }
+  function makeBackgroundWhite(){
+    document.getElementById("content").style.background = "white";
+    document.getElementById("content").style.color = "blue";
+  }
+</script>
+</html>
