@@ -50,9 +50,14 @@ Digital humanities provide powerful tools and understanding that can significant
 
 References
 Alpin, A. M. n.d. ‘Research Guides: Digital Humanities: Tools & Software’. Accessed 23 November 2025. https://guides.nyu.edu/digital-humanities/tools-and-software.
+
 Aarhus University. n.d. ‘Master’s Degree Programme in European Studies’. Accessed 23 November 2025. https://masters.au.dk/europeanstudies.
+
 National Cyber Security Centre. n.d. ‘Top Tips for Staying Secure Online’. Accessed 11 December 2025. https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online.
+
 Postman. n.d. ‘What Is an API? A Beginner’s Guide to APIs | Postman’. Accessed 23 November 2025. https://www.postman.com/what-is-an-api/.
 
+
 Declaration
+
 I have used GAI (Copilot) to get improvements of texts.
